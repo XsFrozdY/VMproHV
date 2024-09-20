@@ -21,15 +21,15 @@ What are the goals?
 - One-click update to repo and look for updates for VMproHV and the same for to upgrade the repo and VMproHV
 
 Author: 
-ExcessFrozdy or EquallyEpic Frozdy
+- ExcessFrozdy or EquallyEpic Frozdy
 
 Contributors:
-Frozdy
+- Frozdy
 
 Thanks:
-Github
-OpenAI ChatGPT
-Python
+- Github
+- OpenAI ChatGPT
+- Python
 
 "Special thanks":
-Anti-consumer Died Off Before Ending | After Effects CS6
+- Anti-consumer Died Off Before Ending | After Effects CS6
