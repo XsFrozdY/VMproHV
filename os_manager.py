@@ -15,13 +15,39 @@ descriptions = {
     For those familiar with Proxmox, this concept is similar, but VMproHV allows management
     directly from this manager, no need for an additional device.
     """,
-    "Windows": "Select Windows 10 or 11 for installation.",
-    "Win 10": "Select from the available Windows 10 editions to download and install.",
-    "Win 11": "Select from the available Windows 11 editions to download and install.",
-    "Linux": "Select from Arch, Fedora, or Debian-based distros.",
-    "Arch": "Select the main Arch or one of its 5 most popular distros.",
-    "Fedora": "Select the main Fedora or one of its 5 most popular distros.",
-    "Debian": "Select Debian 12 or one of its 5 most popular Debian-based distros.",
+    "Windows": """Select Windows 10 for a little bit more provacy or 
+    Windows 11 for being more up to date but you give up your soul.""",
+    "Win 10": """Select from the available Windows 10 editions to download and install.
+    Home Edition is for those that's not very technical and don't need more control.
+    Pro Edition are for those that are a little more technically inclined and can use the more advanced options
+    S Edition is really locked down, great to heavily limit what kids can do on the system
+    Enterprise Edition is for corporations. If you're unsure if you need it, you don't.
+    Education Edition is great for kids from 6-15""",
+    "Win 11": """Select from the available Windows 11 editions to download and install.
+    Home Edition is for those that's not very technical and don't need more control.
+    Pro Edition are for those that are a little more technically inclined and can use the more advanced options
+    S Edition is really locked down, great to heavily limit what kids can do on the system
+    Enterprise Edition is for corporations. If you're unsure if you need it, you don't.
+    Education Edition is great for kids from 6-15""",
+    "Linux": """Select from Arch which is more bleeding edge and very prone to break unless you know what to do.
+    Fedora, which is a good balance between bleeding edge and stable, still prone to break, but not that bad. 
+    Debian-based distros are very reliable and stable for your average user using it day to day.""",
+    "Arch": """Arch is highly customizable, minimal, and gives complete control over the system but steep learning curve and unstable.
+    Manjaro is a user-friendly Arch-based distro with a more stable update process but less control compared to pure Arch.
+    EndeavorOS has Strong community support with a focus on simplicity but requires some technical know-how, though it’s more beginner-friendly than Arch.
+    ArcoLinux focuses on performance, with pre-configured system optimizations but may not be as stable as other Arch-based distros due to aggressive optimizations.
+    RebornOS is great for users who want to learn Arch, offering step-by-step learning paths but slightly more complex setup compared to Manjaro or EndeavourOS""",
+    "Fedora": """Fedora is cutting-edge software with a focus on innovation and new technologies but short lifecycle, with versions supported for only about 13 months.
+    Fedora Workstation is ideal for developers and desktop users who want access to the latest technologies but less stable than long-term support distros.
+    Nobara Project is focused on gaming and multimedia with optimizations for performance but ot as polished or widely supported as main Fedora.
+    RHEL is a mature ecosystem with extensive compatibility for enterprise software but requires a subscription for full access and Not as up-to-date as main Fedora.
+    Rocky Linux is designed for those seeking RHEL compatibility but it focuses more on enterprise stability than new features.
+    Korora is tailored for average users that does gaming and media creation but updates follow Fedora's fast release cycle, which may introduce occasional instability.""",
+    "Debian": """Debian 12 have a focus on security and system stability but not as beginner-friendly as Ubuntu, requiring more manual setup and configuration.
+    Ubuntu offer a balance between stability and newer features but heavier resource usage due to its GNOME desktop environment by default.
+    Linux Mint is extremely user-friendly, especially for those transitioning from Windows but slower release cycle compared to Ubuntu, which may delay access to newer features.
+    Pop focuses on gaming and creative work, with native support for gaming tools like Steam but heavier on system resources, especially with GNOME and some custom tweaks.
+    MX Linux is lightweight and fast, perfect for older hardware but the interface and default desktop (XFCE) may not appeal to users who prefer a more modern look.""",
 }
 
 # Global variables
@@ -115,7 +141,7 @@ def show_fedora_menu():
     tk.Button(left_frame, text="Nobara Project", bg=button_bg, fg=text_color).pack(pady=10, padx=10, fill="x")
     tk.Button(left_frame, text="RHEL (Red Hat Enterprise Linux)", bg=button_bg, fg=text_color).pack(pady=10, padx=10, fill="x")
     tk.Button(left_frame, text="Rocky Linux", bg=button_bg, fg=text_color).pack(pady=10, padx=10, fill="x")
-    tk.Button(left_frame, text="AlmaLinux", bg=button_bg, fg=text_color).pack(pady=10, padx=10, fill="x")
+    tk.Button(left_frame, text="Korora", bg=button_bg, fg=text_color).pack(pady=10, padx=10, fill="x")
     tk.Button(left_frame, text="Back", command=show_linux_menu, bg=button_bg, fg=text_color).pack(pady=10, padx=10, fill="x")
     tk.Button(left_frame, text="Home", command=show_main_menu, bg=button_bg, fg=text_color).pack(pady=10, padx=10, fill="x")
     update_right_frame("Fedora")
