@@ -4,7 +4,7 @@ I'm just starting out and I've never comprehended coding, I still don't so I've 
 I'm also not very knowledgeable when it comes to Linux but I'm doing my best to try and learn.
 
 Current features:
--Glorified concept
+- Glorified concept
 
 What are the goals?
 - To be as close to an all-in-one solution as it can be.
