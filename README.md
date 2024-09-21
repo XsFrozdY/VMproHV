@@ -1,9 +1,10 @@
 Virtual Manager pro-Hypervisor (working title)
+
 I'm just starting out and I've never comprehended coding, I still don't so I've been taking all coding from ChatGPT, I wanna upfront about that. So I'm seeking someone that wanna help out managing this project. 
 I'm also not very knowledgeable when it comes to Linux but I'm doing my best to try and learn.
 
 Current features:
--Glorified concept.
+-Glorified concept
 
 What are the goals?
 - To be as close to an all-in-one solution as it can be.
